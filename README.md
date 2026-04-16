@@ -6,6 +6,9 @@ The following sections provide a brief description of the code in this repositor
 When I refer to 'the paper' or 'the authors', it means this paper: 
 Zhang, S., Chasman, D., Knaack, S. et al. In silico prediction of high-resolution Hi-C interaction matrices. Nat Commun 10, 5449 (2019). https://doi.org/10.1038/s41467-019-13423-8
 
+## Datasets used
+The epigenetic markers (histone modifications and transcription factor binding sites), Hi-C, and genomic sequence datasets from 5 different cancer cell lines were used to train a Random Forest model and predict Hi-C counts of two regions in the genome.
+
 ## validate_paper_results_cross_chr_plots.py
 First, the results in the paper were validated using only the dataset provided by the authors.
 In this script, the cross-chromosome analysis is conducted.
